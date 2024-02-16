@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<!--* указывать язык аудитории данного сайта -->
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale-1.0, minimum-scale=1.0"
+    />
+    <!--* Заголовок самый основной текст, и поэтому там должно находиться ключевая идея -->
+    <title>Сюда нужен хороший Заголовок.</title>
+    <!--* Здесь будет иконка -->
+    <link rel="icon" type="image/x-icon" href="" />
+    <!--* Описание это второй по значимости момент на который роботы обращают внимание при ранжировании -->
+    <meta name="description" content="А здеся надо сделать хорошое описание." />
+    <!--* Ключевые слова это уже не совсем обязательный параметр, по словам многих он уже не особо влияет на оптимизацию -->
+    <meta
+      name="keywords"
+      content="Здесь, нужно, вот так, добавлять, ключевые слова"
+    />
+
+    <!--* Добавление Open Graph (чтобы в соц сетях при отправении ссылки отоброжался наш сайт.)-->
+    <!--TODO нужно потом Open graph настроить -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="Ссылка на наш сайт" />
+    <meta property="og:title" content="Заголовок" />
+    <meta property="og:description" content="Описание" />
+    <meta property="og:image" content="Здесь должна быть картинка" />
+
+    <link rel="stylesheet" href="./styles/null.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/adaptive.css" />
+  </head>
+  <body>
+    <div class="header__wrapper">
+      <!--* Navbar start -->
+      <header class="header">
+        <div class="container">
+          <nav class="navbar__wrapper">
+            <div class="logo__wrapper">
+              <img src="./img/logo.svg" alt="логотип портер грузоперевозок" />
+            </div>
+
+            <ul class="nav__menu">
+              <li class="nav__item">
+                <a href="">О нас</a>
+              </li>
+              <li class="nav__item">
+                <a href="">Услуги</a>
+              </li>
+              <li class="nav__item">
+                <a href="">Схема работы</a>
+              </li>
+              <li class="nav__item">
+                <a href="">Контакты</a>
+              </li>
+            </ul>
+
+            <button class="nav__btn">Заказать</button>
+
+            <div class="burger__menu-wrapper">
+              <img
+                class="burger-menu"
+                src="./img/burger-menu.svg"
+                alt="бургер-меню"
+              />
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--* Navbar finish -->
+
+      <!--* Burger menu start  -->
+      <div class="container2">
+        <div class="burger-list">
+          <ul class="navigation">
+            <li class="navigation__item">
+              <a href="">О нас</a>
+            </li>
+            <li class="navigation__item">
+              <a href="">Услуги</a>
+            </li>
+            <li class="navigation__item">
+              <a href="">Схема работы</a>
+            </li>
+            <li class="navigation__item">
+              <a href="">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--* Burger menu finish  -->
+
+      <!--* Main start -->
+      <main class="main">
+        <div class="container">
+          <div class="main__wrapper">
+            <h1 class="main__title">
+              Грузоперевозки Бишкека: <br />
+              Ваши грузы - наши заботы!
+            </h1>
+            <p class="main__text">
+              Мы обеспечиваем оперативную и безопасную доставку вашего груза от
+              точки А до точки Б, обеспечивая персонализированный подход к
+              каждому клиенту!
+            </p>
+            <button class="main__btn">Заказать</button>
+          </div>
+        </div>
+        <div class="main__img">
+          <img src="./img/header-img.png" alt="Портер" />
+        </div>
+      </main>
+      <!--* Main finish -->
+    </div>
+    <!--* Section WhyChooseUs start -->
+    <section class="whyChooseUs__section">
+      <div class="Carousel-slider">
+        <h3 class="swiper__title">Почему выбирают нас?</h3>
+
+        <div class="slider-item">
+          <div class="card__img">
+            <div class="img__wrapper">
+              <img src="./img/whyChooseUs/calculator.svg" alt="" />
+            </div>
+          </div>
+
+          <h4 class="card__title">Надежная доставка 1</h4>
+          <p class="card__text">
+            Наша компания имеет богатый  опыт в сфере грузоперевозок и  обладает
+            современным  транспортным парком.
+          </p>
+        </div>
+        <div class="slider-item">
+          <div class="card__img">
+            <div class="img__wrapper">
+              <img src="./img/whyChooseUs/calculator.svg" alt="" />
+            </div>
+          </div>
+
+          <h4 class="card__title">Надежная доставка 2</h4>
+          <p class="card__text">
+            Наша компания имеет богатый опыт в сфере грузоперевозок и обладает
+            современным транспортным парком.
+          </p>
+        </div>
+        <div class="slider-item">
+          <div class="card__img">
+            <div class="img__wrapper">
+              <img src="./img/whyChooseUs/calculator.svg" alt="" />
+            </div>
+          </div>
+
+          <h4 class="card__title">Надежная доставка 3</h4>
+          <p class="card__text">
+            Наша компания имеет богатый опыт в сфере грузоперевозок и обладает
+            современным транспортным парком.
+          </p>
+        </div>
+      </div>
+
+      <div class="wcu__block">
+        <div class="container">
+          <div class="wcu__wrapper">
+            <div class="wcu__item">
+              <div class="card__img">
+                <div class="img__wrapper">
+                  <img src="./img/whyChooseUs/calculator.svg" alt="" />
+                </div>
+              </div>
+
+              <h4 class="card__title">Надежная доставка 1</h4>
+              <p class="card__text">
+                Наша компания имеет богатый  опыт в сфере грузоперевозок и
+                 обладает современным  транспортным парком.
+              </p>
+            </div>
+
+            <div class="wcu__item">
+              <div class="card__img">
+                <div class="img__wrapper">
+                  <img src="./img/whyChooseUs/calculator.svg" alt="" />
+                </div>
+              </div>
+
+              <h4 class="card__title">Надежная доставка 2</h4>
+              <p class="card__text">
+                Наша компания имеет богатый  опыт в сфере грузоперевозок и
+                 обладает современным  транспортным парком.
+              </p>
+            </div>
+
+            <div class="wcu__item">
+              <div class="card__img">
+                <div class="img__wrapper">
+                  <img src="./img/whyChooseUs/calculator.svg" alt="" />
+                </div>
+              </div>
+
+              <h4 class="card__title">Надежная доставка 3</h4>
+              <p class="card__text">
+                Наша компания имеет богатый  опыт в сфере грузоперевозок и
+                 обладает современным  транспортным парком.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--* Section WhyChooseUs finish-->
+
+    <!--* Services section start -->
+    <section class="services">
+      <div class="container">
+        <div class="services__wrapper">
+          <h4 class="services__title">Наши услуги</h4>
+
+          <div class="services__list">
+            <div class="services__item">
+              <div class="item__img-wrapper">
+                <img src="./img/porter.png" alt="Hyundai Портер" />
+              </div>
+              <h5 class="item__title">Портер такси</h5>
+              <p class="item__text">От 700 сом/в час</p>
+              <button class="item__btn">Заказать</button>
+            </div>
+
+            <div class="services__item">
+              <div class="item__img-wrapper">
+                <img src="./img/porter2.jpg" alt="Hyundai Портер" />
+              </div>
+              <h5 class="item__title">Вывоз старого мусора</h5>
+              <p class="item__text">От 1300 сом</p>
+              <button class="item__btn">Заказать</button>
+            </div>
+
+            <div class="services__item">
+              <div class="item__img-wrapper">
+                <img src="./img/gruzchiki.jpg" alt="Грузчики" />
+              </div>
+              <h5 class="item__title">Грузчики</h5>
+              <p class="item__text">От 300 сом/в час</p>
+              <button class="item__btn">Заказать</button>
+            </div>
+
+            <div class="services__item">
+              <div class="item__img-wrapper">
+                <img src="./img/sprinter.jpg" alt="Mercedes-Benz Спринтер" />
+              </div>
+              <h5 class="item__title">Спринтер такси</h5>
+              <p class="item__text">От 700 сом/в час</p>
+              <button class="item__btn">Заказать</button>
+            </div>
+
+            <div class="services__item">
+              <div class="item__img-wrapper">
+                <img src="./img/rulon.avif" alt="Рулоны для одежды" />
+              </div>
+              <h5 class="item__title">Вывоз швейных отходов</h5>
+              <p class="item__text">От 1500 сом</p>
+              <button class="item__btn">Заказать</button>
+            </div>
+
+            <div class="services__item">
+              <div class="item__img-wrapper">
+                <img src="./img/mebel.png" alt="Сборка мебели" />
+              </div>
+              <h5 class="item__title">Сборка и разборка мебели</h5>
+              <p class="item__text">От 300 сом/в час</p>
+              <button class="item__btn">Заказать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--* Services section finish -->
+
+    <!-- Rates start -->
+
+    <article class="name container">
+      <h3>Тарифы</h3>
+      <div class="tariffs_container">
+        <div class="tariffs">
+          <h5>Тарифы по городу (до 2 тонн)</h5>
+          <hr />
+          <ul>
+            <li>По городу часовая оплата - 700/час</li>
+            <li>Чон-Арык, Орто-Сай - 900сом/час</li>
+            <li>село.Көк - Жар - 800с</li>
+            <li>Военно–Антоновка - 1000 сом/час +200с</li>
+            <li>Новопавловка - 800 сом/час +200с</li>
+            <li>ГЭС–2, Калыс-Ордо, Ак-Босого - 1000 сом/час +300с</li>
+            <li>Байтик - 1800 сом</li>
+            <li>Пригородное, Маевка - 900 сом/час +200с.</li>
+            <li>Воронцовка - 2500 сом.</li>
+          </ul>
+        </div>
+        <div class="tariffs">
+          <h5>Тарифы по регионам (до 2 тонн)</h5>
+          <hr />
+          <ul>
+            <li>Сокулук, Кант - договорная</li>
+            <li>Беловодски, Аэропорт Манас - договорная</li>
+            <li>Кун-Туу, Мраморное,Нижний СЭЗ - договорная</li>
+            <li>Арашан,Чон-Таш - договорная</li>
+            <li>Кашка-Суу,Арчалы - договорная</li>
+            <li>Иссык-куль, Кара-кол - договорная</li>
+            <li>Нарын, Кочкор, Ат-Башы - договорная.</li>
+            <li>Кемин, Токмок - договорная</li>
+            <li>
+              Беш-Кунгой,с.Джал, Маловодное, сов Ала-Тоо,Кой Таш,Байтик -
+              договорная
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- Rates end -->
+
+    <aside class="name">
+      <h3>Схема работы</h3>
+      <div class="works">
+        <div class="work">
+          <img
+            src="./img/number1.svg"
+            alt="Image of the first digit, that is, the beginning of the instructions"
+          />
+          <p>Заявка от клиента: Клиент связывается с портером, предоставляя информацию о требуемых услугах</p>
+        </div>
+        <img
+          class="long_line"
+          src="./img/long_line.svg"
+          alt="
+        The line is much longer than usual."
+        />
+        <img
+          class="line"
+          src="./img/line.svg"
+          alt="
+        is a picture of a line that is probably used to provide visual separation or connection between elements in a diagram of work or instructions."
+        />
+        <div class="work">
+          <img src="./img/number2.svg" alt="number1" />
+          <p>Оценка запроса: После получения запроса портер проводит оценку услуги,</p>
+        </div>
+        <img class="long_line" src="./img/long_line.svg" alt="long_line" />
+        <img
+          id="line2_3"
+          class="line"
+          src="./img/line.svg"
+          alt="
+        is a picture of a line that is probably used to provide visual separation or connection between elements in a diagram of work or instructions."
+        />
+        <img
+          class="vector"
+          id="vector1"
+          src="./img/vector.svg"
+          alt="'vector' is a vector graphic image that can be used as a decorative element or symbol in a flowchart or instructions."
+        />
+        <img
+          class="vector"
+          id="vector2"
+          src="./img/vector2.svg"
+          alt="'vector' is a vector graphic image that can be used as a decorative element or symbol in a flowchart or instructions."
+        />
+        <div class="work elem3_change">
+          <img src="./img/number3.svg" alt="number1" />
+          <p>Cогласование цены: Портер предоставляет клиенту стоимость услуги.</p>
+        </div>
+        <img id="vector4" src="./img/vector4.svg" alt="vector4" />
+        <img id="vector5" src="./img/vector5.svg" alt="vector5" />
+        <div class="work">
+          <img class="elem4" src="./img/number4.svg" alt="number1" />
+          <p>Заключение договора: После согласования цены и условий клиент и портер заключают договор. </p>
+        </div>
+        <img class="long_line" src="./img/long_line.svg" alt="long_line" />
+        <img id="line4_5" class="line" src="./img/line.svg" alt="line" />
+        <img class="line" id="line_2" src="./img/line.svg" alt="line" />
+        <div class="work elem3">
+          <img src="./img/number3.svg" alt="number1" />
+          <p>Заключение договора: После согласования цены и условий клиент и портер заключают договор. </p>
+        </div>
+        <div class="work">
+          <img src="./img/number5.svg" alt="number1" />
+          <p>Выполнение заказа: После заключения договора портер приступает к выполнению </p>
+        </div>
+        <img class="long_line" src="./img/long_line.svg" alt="long_line" />
+        <img class="line" src="./img/line.svg" alt="line" />
+        <div class="work">
+          <img src="./img/number6.svg" alt="number1" />
+          <p>Выполнения и оплата: Клиент подтверждает, что услуга была выполнена </p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- scheme of work end -->
+
+    <!-- Footer start -->
+    <footer class="footer container name">
+      <div class="container_footer">
+        <div>
+          <h3>Контакты</h3>
+        </div>
+        <div class="container_contacts">
+          <div class="contacts">
+            <div class="contact">
+              <img src="./img/phone.svg" alt="phone" />
+              <p>+999 999 999 999</p>
+            </div>
+            <div class="contact">
+              <img src="./img/phone.svg" alt="phone" />
+              <p>+999 999 999 999</p>
+            </div>
+            <div class="contact">
+              <img src="./img/whatsApp.svg" alt="WhatsApp" />
+              <p>+999 999 999 999</p>
+            </div>
+            <div class="contact">
+              <img src="./img/telegram.svg" alt="telegram" />
+              <p>+999 999 999 999</p>
+            </div>
+            <div class="contact">
+              <img src="./img/location.svg" alt="location" />
+              <p>+999 999 999 999</p>
+            </div>
+          </div>
+          <div class="map">
+            <a
+              class="dg-widget-link"
+              href="http://2gis.kg/bishkek/firm/70000001059896302/center/74.63119983673097,42.86552195747757/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap"
+              >Посмотреть на карте Бишкека</a
+            >
+            <div class="dg-widget-link">
+              <a
+                href="http://2gis.kg/bishkek/center/74.631206,42.865539/zoom/16/routeTab/rsType/bus/to/74.631206,42.865539╎Portertaxi.kg, транспортная компания?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route"
+                >Найти проезд до Portertaxi.kg, транспортная компания</a
+              >
+            </div>
+            <script
+              charset="utf-8"
+              src="https://widgets.2gis.com/js/DGWidgetLoader.js"
+            ></script>
+            <script id="map2" charset="utf-8">
+              new DGWidgetLoader({
+                borderColor: "#a3a3a3",
+                pos: {
+                  lat: 42.86552195747757,
+                  lon: 74.63119983673097,
+                  zoom: 16,
+                },
+                opt: { city: "bishkek" },
+                org: [{ id: "70000001059896302" }],
+              });
+            </script>
+            <noscript style="color: #c00; font-size: 16px; font-weight: bold"
+              >Виджет карты использует JavaScript. Включите его в настройках
+              вашего браузера.</noscript
+            >
+          </div>
+          <iframe
+            class="map_google"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.0580301674445!2d74.58435237615865!3d42.87161930262946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec8241b52669f%3A0xb8b43841ad54c50b!2zMjkg0YPQu9C40YbQsCDQotCw0LHRi9GI0LDQu9C40LXQstCwLCDQkdC40YjQutC10Lo!5e0!3m2!1sru!2skg!4v1708077237769!5m2!1sru!2skg"
+            width="100%"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="footer_logo">
+        <img src="./img/logo.svg" alt="logo" />
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
