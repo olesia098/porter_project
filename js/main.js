@@ -3,10 +3,11 @@
 const btn = document.querySelector(".burger-menu");
 const ul = document.querySelector(".burger-list");
 const li = document.querySelectorAll(".navigation__item");
+const cont = document.querySelector(".container2")
 
 li.forEach((item) =>
   item.addEventListener("click", () => {
-    ul.style.height = "0";
+    ul.style.display = none;
   })
 );
 
